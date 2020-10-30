@@ -1,0 +1,394 @@
+﻿body {
+}
+
+#sidebar_right_ads {
+    margin-top: 140px;
+}
+
+#app {
+    margin-top: 16px;
+    margin-bottom: 70px;
+    white-space: nowrap;
+    border-style: solid;
+    border-color: #ecc70f;
+    border-radius: 20px;
+    border-width: 2px;
+    text-align: center;
+    /*width: 920px;*/
+    background: #FAFAFA;
+    overflow: hidden;
+}
+
+#button_bar {
+    float: left;
+    vertical-align: middle;
+    border-style: none;
+    border-width: 2px;
+    border-color: gray;
+    margin-right: 5px;
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 6px 5px 6px 5px;
+}
+
+
+    #button_bar button {
+        white-space: normal;
+        width: 82px;
+        height: 67px;
+        text-align: center;
+        font-size: 9.5px;
+        font-weight: bold;
+        background-color: #E5E5E5;
+        border-radius: 10px;
+        border-style: none;
+    }
+
+        #button_bar button i {
+            font-size: 29px;
+            margin-bottom: 3px;
+        }
+
+#schedule_display {
+    border-radius: 10px;
+}
+
+#schedule_title_textbox {
+    margin-top: 4px;
+    margin-bottom: 5px;
+    width: 70%;
+    text-align: center;
+}
+
+#schedule_display_viewport {
+    border-style: none;
+    height: 550px;
+    /*width: 800px;*/
+    margin: auto;
+    overflow-y: scroll;
+}
+
+.bar_button label {
+    font-size: 12px;
+}
+
+.dialog {
+    display: none;
+}
+
+#course_input {
+}
+
+.course_input_dialog.ui-dialog-titlebar {
+    background-color: none;
+}
+
+label {
+}
+
+#course_title_textbox {
+    margin-left: 10px;
+    width: 60%;
+}
+
+#color_picker_contents {
+    table-layout: fixed;
+    vertical-align: middle;
+    text-align: center;
+    width: 220px;
+    height: 220px;
+}
+
+#course_color_button {
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+    border-style: solid;
+    vertical-align: middle;
+}
+
+    #course_color_button:hover {
+        cursor: pointer;
+    }
+
+.color_selection {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+
+    .color_selection:hover {
+        cursor: pointer;
+    }
+
+input[type=checkbox] {
+    width: 17px;
+    height: 17px;
+}
+
+#inline_group {
+    overflow: hidden;
+    display: inline;
+}
+
+.course_selection_button {
+    border-radius: 1px;
+    border-style: groove;
+    border-width: 1px;
+    width: 100%;
+    min-height: 40px;
+    text-align: center;
+    font-family: Tahoma, Georgia, Verdana;
+    font-weight: bolder;
+    margin: 4px 0px;
+}
+
+    .course_selection_button:hover {
+        box-shadow: 0 0 2px 1px;
+        cursor: pointer;
+    }
+
+
+.day_selector {
+    text-align: center;
+    vertical-align: middle;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.day_selector_spacer {
+    width: 13px;
+}
+
+input[type=checkbox]:focus {
+    box-shadow: 0 0 1px 1px;
+    outline: none;
+}
+
+.time_input {
+    border-style: solid;
+    padding: 8px;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: gray;
+    background-color: #EDF1F2;
+    margin: 8px 0px;
+}
+
+.location_textbox {
+    margin-left: 11px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 60%;
+}
+
+.class_type_textbox {
+    margin-left: 37px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 40%;
+}
+
+.instructor_textbox {
+    width: 50%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+}
+
+.optional_time_inputs {
+    background-color: #d6dfe2;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.required_time_inputs {
+    background-color: #d6dfe2;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.time_input_header {
+    background-color: #22313F;
+    color: #FEFEFA;
+    height: 23px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 2px 0px 0px 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: -4px;
+}
+
+.time_input_header_text {
+    margin-left: 12px;
+}
+
+.remove_time_button {
+    border-width: 0px;
+    background-color: transparent;
+    color: #D64541;
+    float: right;
+    font-size: 17px;
+    margin-top: -3px;
+    margin-right: 5px;
+}
+
+    .remove_time_button:hover {
+        color: orange;
+    }
+
+    .remove_time_button:focus {
+        outline: none;
+    }
+
+label {
+    font-weight: 700;
+}
+
+.clock_input {
+}
+
+.time_label_td {
+    width: 100px;
+}
+
+.time_select_td {
+    width: 150px;
+}
+
+.select_id {
+    width: 200px;
+}
+
+input[type=text] {
+    border-radius: 7px;
+    border-style: double;
+    border-color: darkgray;
+    padding: 1px 3px;
+    font-size: 14px;
+    border-width: 1px;
+    outline: none;
+}
+
+    input[type=text]:focus {
+        box-shadow: 0 0 2px 1px;
+    }
+
+.time_textbox {
+    width: 2em;
+    text-align: center;
+}
+
+select {
+    border-radius: 3px;
+}
+
+    select:focus {
+        box-shadow: 0 0 2px 1px;
+        outline: none;
+    }
+
+#add_time_button {
+    width: 100%;
+    height: 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: Tahoma, Verdana;
+}
+
+button:hover {
+    box-shadow: 0 0 2px 1px;
+}
+
+button:focus {
+    box-shadow: 0 0 2px 1px;
+    outline: none;
+}
+
+#add_time_button:hover {
+    box-shadow: 0 0 2px 1px;
+}
+
+#add_time_button:focus {
+    box-shadow: 0 0 2px 1px;
+    outline: none;
+}
+
+#submit_button_container {
+    text-align: center;
+}
+
+#submit_button {
+    font-family: Tahoma, Verdana;
+    margin: 34px 0px;
+    background-color: #95A5A6;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 50%;
+    height: 34px;
+}
+
+    #submit_button:hover {
+        box-shadow: 0 0 2px 1px;
+    }
+
+    #submit_button:focus {
+        box-shadow: 0 0 2px 1px;
+        outline: none;
+    }
+
+#open_advanced_color_picker_button {
+    background: none;
+    border: 1px solid #444;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 2px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#import_schedule_dialog {
+    text-align: center;
+}
+
+#import_schedule_drop {
+    height: 95px;
+    width: auto;
+    border-width: 5px;
+    border-style: dotted;
+    background: #F0F8FF;
+}
+
+    #import_schedule_drop.drag {
+        border-color: #0062FF;
+    }
+
+#import_schedule_description {
+    font-weight: bold;
+}
+
+.error_hint {
+    color: red;
+    font-size: 10px;
+    display: none;
+}
+
+#schedule_display_viewport::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+#schedule_display_viewport::-webkit-scrollbar-track {
+    background-color: rgba(113,112,107,0.18);
+    -webkit-border-radius: 5px;
+}
+
+#schedule_display_viewport::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,.3);
+    -webkit-border-radius: 6px;
+}
+
+    #schedule_display_viewport::-webkit-scrollbar-thumb:hover {
+        background: darkgray;
+    }

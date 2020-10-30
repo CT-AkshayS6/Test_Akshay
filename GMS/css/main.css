@@ -1,0 +1,136 @@
+﻿
+html {
+    height: 90%;
+}
+
+body {
+    font-family: Tahoma, Verdana;
+    font-size: 13px;
+    background: #FDFDFB;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    /*min-width: 1000px;*/
+}
+
+#content {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    margin-top: 95px;
+    margin-bottom: 100px;
+    background: #FDFDFB;
+}
+
+/*nav {
+    width: 100%;
+    background-color: #222832;
+    height: 40px;
+    float: left;
+    min-width: 600px;
+}
+
+    nav ul {
+        list-style: none;
+        float: left;
+        margin-left: 11%;
+    }
+
+        nav ul li {
+            display: inline-block;
+            text-align: center;
+        }
+
+            nav ul li a {
+                color: #FDFDFB;
+                text-decoration: none;
+                font-size: 20px;
+                padding: 0px 30px;
+                line-height: 16px;
+            }
+
+                nav ul li a:hover {
+                    background: #726E6D;
+                    border-radius: 5px;
+                }*/
+
+header {
+    /*background: #222832;*/
+    /*padding: 3px 10px;*/
+    margin-top: 0px;
+    margin-bottom: 2px;
+    /*padding-left: 30px;*/
+    white-space: nowrap;
+}
+
+    header h1 {
+        color: white;
+    }
+
+    header a {
+        text-decoration: none;
+    }
+
+footer {
+    height: 0px;
+    background: #222832;
+    margin: 0;
+    padding: 0;
+}
+
+#introduction {
+    width: 80%;
+}
+
+    #introduction p {
+        width: 93%;
+    }
+
+#banner_ad {
+    text-align: center;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+
+#sidebar_right_ads {
+    display: inline-block;
+    float: right;
+    margin-bottom: 60px;
+    margin-top: 90px;
+    margin-right: 3%;
+    margin-left: 15px;
+    background: lightgray;
+    padding: 14px;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+    #sidebar_right_ads ul li {
+        margin: 10px 4px;
+    }
+
+    #sidebar_right_ads ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+#disqus_thread {
+    max-width: 780px;
+    height: 80px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+
+    #disqus_thread footer {
+        color: #FDFDFB;
+    }
+
+
+.addthis_sharing_toolbox {
+    margin-left: 10px;
+}
